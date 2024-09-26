@@ -1,6 +1,13 @@
-const numbers = [3, 6, 9, 8, 3, 6, 9, 83, 6, 9, 8];
-const letters = ['a', 'b', 'c', 'd'];
+const clients = [
+    "João Silva",
+    "Maria Oliveira",
+    "Carlos Souza",
+    "Ana Costa",
+    "Pedro Santos"
+  ];
+  
+  console.log(clients);
 
-const all = numbers.concat(letters);
-const half = all.slice(10, 12)
-console.log(half);
+  const clientsJoin = clients.join(', ')
+  
+  console.log(clientsJoin)
