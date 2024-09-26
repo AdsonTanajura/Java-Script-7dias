@@ -1,7 +1,7 @@
-const price = ({a, b}) => {
-    return a + b;
+const carLoan = ({loan, rate = 2.9, years = 5}) => {
+    return (loan * rate / 100 * years) + loan;
 };
 
-const totalPrice = price({a: 10, b: 20});
+const loan = carLoan({loan: 20000})
 
-console.log(totalPrice);
+console.log(loan)
