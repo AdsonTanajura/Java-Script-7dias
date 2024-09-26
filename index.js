@@ -5,9 +5,7 @@ const clients = [
     "Ana Costa",
     "Pedro Santos"
   ];
-  
-  console.log(clients);
 
-  const clientsJoin = clients.join(', ')
-  
-  console.log(clientsJoin)
+clients.reverse();
+
+console.log(clients);
