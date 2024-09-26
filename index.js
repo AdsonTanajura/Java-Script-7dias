@@ -1,11 +1,5 @@
-const clients = [
-    "João Silva",
-    "Maria Oliveira",
-    "Carlos Souza",
-    "Ana Costa",
-    "Pedro Santos"
-  ];
+const tempLondo = [18, 13, 8, 2];
 
-clients.reverse();
+const tempPositive = tempLondo.every(value => value >= 0);
 
-console.log(clients);
+console.log(tempPositive);
