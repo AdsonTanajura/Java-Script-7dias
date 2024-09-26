@@ -1,5 +1,6 @@
-const num = [3, 6, 9, 8, 3, 6, 9, 83, 6, 9, 8];
+const numbers = [3, 6, 9, 8, 3, 6, 9, 83, 6, 9, 8];
+const letters = ['a', 'b', 'c', 'd'];
 
-num.splice(0, num.length)
-
-console.log(num);
+const all = numbers.concat(letters);
+const half = all.slice(10, 12)
+console.log(half);
