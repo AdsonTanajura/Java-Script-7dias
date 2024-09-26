@@ -1,6 +1,5 @@
-const num = [3, 6, 9, 8];
+const num = [3, 6, 9, 8, 3, 6, 9, 83, 6, 9, 8];
 
-const final = num.splice(2, 1);
+num.splice(0, num.length)
 
 console.log(num);
-console.log(final);
