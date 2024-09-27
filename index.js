@@ -25,4 +25,5 @@ const colors = [
   const changeColor = () => {
     const randomIndex = Math.floor(Math.random() * colors.length);
     body.style.backgroundColor = colors[randomIndex];
+    document.getElementById('your-color').innerHTML = colors[randomIndex];
   };
